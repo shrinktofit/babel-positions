@@ -10,16 +10,16 @@ There is a story. Creator tried to bump babel to version 7.9.x during developmen
 
 ## Contents
 
-This repository contains a specified version of Cocos Creator engine source and two transform environments called **old** and **new**. Both they are used to transform the same engine source.
+This repository contains a specified version of Cocos Creator engine source and two transform environments called **old**(at `./old`) and **new**(at `./new`). Both they are used to transform the same engine source.
 
 When an upgrade decision is made. You should take the following steps:
 
 1. Update the engine sub-module code if necessary.
 2. Mark the existing **new** environment as **old** and then create a new environment.
-3. Modify the new environment to satisfy your requirements;
+3. Modify the new environment to satisfy your requirements.
 4. Then you run the script `generate.ps1` to do the transform. You will see the transform result at `new-out` and `old out`.
 5. Compare the transform result use a diff compare tool, such as [Beyond Compare](https://www.scootersoftware.com/). It would be better if your tool has directory comparison feature.
-6. Repeat step 2-4 till the changes are acceptable.
+6. Repeat step 3-4 till the changes are acceptable.
 7. Apply the new environment to Cocos Creator. Emplace a `version` file in new environment to record the Cocos Creator version.
 
 ## Change log
