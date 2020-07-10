@@ -19,7 +19,7 @@ When an upgrade decision is made. You should take the following steps:
 3. Modify the new environment to satisfy your requirements.
 4. Then you run the script `generate.ps1` to do the transform. You will see the transform result at `new-out` and `old out`.
 5. Compare the transform result use a diff compare tool, such as [Beyond Compare](https://www.scootersoftware.com/). It would be better if your tool has directory comparison feature.
-6. Repeat step 3-4 till the changes are acceptable.
+6. Repeat step 3-5 till the changes are acceptable.
 7. Apply the new environment to Cocos Creator. Emplace a `version` file in new environment to record the Cocos Creator version.
 
 ## Change log
