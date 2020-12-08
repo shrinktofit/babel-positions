@@ -6,3 +6,9 @@ new/node_modules/
 old-out/
 
 new-out/
+
+node_modules/
+
+installs/
+
+lib/
